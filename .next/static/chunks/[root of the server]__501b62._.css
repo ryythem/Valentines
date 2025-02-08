@@ -377,20 +377,12 @@ img, video {
   display: none;
 }
 
-.pointer-events-none {
-  pointer-events: none;
-}
-
 .absolute {
   position: absolute;
 }
 
 .relative {
   position: relative;
-}
-
-.inset-0 {
-  inset: 0;
 }
 
 .bottom-0 {

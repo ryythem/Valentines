@@ -29,19 +29,19 @@ function Propose() {
         x: 0,
         y: 0
     });
-    const [musicPlaying, setMusicPlaying] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false); // Changed default to false
+    const [musicPlaying, setMusicPlaying] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "Propose.useEffect": ()=>{
             if (accepted) {
-                setMusicPlaying(true); // Start music when accepted
+                setMusicPlaying(true);
             }
         }
     }["Propose.useEffect"], [
         accepted
     ]);
     const handleNoHover = ()=>{
-        const maxX = window.innerWidth / 3; // Limit X movement
-        const maxY = window.innerHeight / 3; // Limit Y movement
+        const maxX = window.innerWidth / 3;
+        const maxY = window.innerHeight / 3;
         const randomX = Math.random() * maxX * 2 - maxX;
         const randomY = Math.random() * maxY * 2 - maxY;
         setNoButtonPos({
@@ -62,7 +62,7 @@ function Propose() {
                         children: "Will you be my Valentine? 💖"
                     }, void 0, false, {
                         fileName: "[project]/app/propose/page.js",
-                        lineNumber: 35,
+                        lineNumber: 34,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -74,7 +74,7 @@ function Propose() {
                                 children: "Yes 💕"
                             }, void 0, false, {
                                 fileName: "[project]/app/propose/page.js",
-                                lineNumber: 39,
+                                lineNumber: 38,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].button, {
@@ -92,13 +92,13 @@ function Propose() {
                                 children: "No 💔"
                             }, void 0, false, {
                                 fileName: "[project]/app/propose/page.js",
-                                lineNumber: 45,
+                                lineNumber: 44,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/propose/page.js",
-                        lineNumber: 38,
+                        lineNumber: 37,
                         columnNumber: 11
                     }, this)
                 ]
@@ -108,7 +108,7 @@ function Propose() {
                         numberOfPieces: window.innerWidth > 768 ? 300 : 100
                     }, void 0, false, {
                         fileName: "[project]/app/propose/page.js",
-                        lineNumber: 58,
+                        lineNumber: 57,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -119,12 +119,12 @@ function Propose() {
                             children: musicPlaying ? "Pause Music ⏸️" : "Play Music ▶️"
                         }, void 0, false, {
                             fileName: "[project]/app/propose/page.js",
-                            lineNumber: 60,
+                            lineNumber: 59,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/propose/page.js",
-                        lineNumber: 59,
+                        lineNumber: 58,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -139,14 +139,14 @@ function Propose() {
                                 typeSpeed: 50
                             }, void 0, false, {
                                 fileName: "[project]/app/propose/page.js",
-                                lineNumber: 68,
+                                lineNumber: 67,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {
                                 className: "jsx-674754f2b8e9ec72"
                             }, void 0, false, {
                                 fileName: "[project]/app/propose/page.js",
-                                lineNumber: 76,
+                                lineNumber: 75,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$simple$2d$typewriter$2f$dist$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Typewriter"], {
@@ -160,13 +160,13 @@ function Propose() {
                                 delaySpeed: 5000
                             }, void 0, false, {
                                 fileName: "[project]/app/propose/page.js",
-                                lineNumber: 77,
+                                lineNumber: 76,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/propose/page.js",
-                        lineNumber: 67,
+                        lineNumber: 66,
                         columnNumber: 11
                     }, this),
                     musicPlaying && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("iframe", {
@@ -175,7 +175,7 @@ function Propose() {
                         className: "jsx-674754f2b8e9ec72" + " " + "hidden"
                     }, void 0, false, {
                         fileName: "[project]/app/propose/page.js",
-                        lineNumber: 88,
+                        lineNumber: 87,
                         columnNumber: 13
                     }, this)
                 ]
@@ -187,12 +187,12 @@ function Propose() {
                     children: "❤️"
                 }, void 0, false, {
                     fileName: "[project]/app/propose/page.js",
-                    lineNumber: 99,
-                    columnNumber: 3
+                    lineNumber: 97,
+                    columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/propose/page.js",
-                lineNumber: 98,
+                lineNumber: 96,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -202,7 +202,7 @@ function Propose() {
         ]
     }, void 0, true, {
         fileName: "[project]/app/propose/page.js",
-        lineNumber: 32,
+        lineNumber: 31,
         columnNumber: 5
     }, this);
 }
